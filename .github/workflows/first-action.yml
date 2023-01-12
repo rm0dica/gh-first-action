@@ -8,4 +8,9 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - Bye!"
+      - name: Parallel Testing
+        run: |
+          echo "First Output"
+          echo "Second Output"
+          echo "Final Output"
     
